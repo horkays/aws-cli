@@ -113,3 +113,4 @@ wheel==0.38.1 \
     --hash=sha256:7a95f9a8dc0924ef318bd55b616112c70903192f524d120acc614f59547a9e1f \
     --hash=sha256:ea041edf63f4ccba53ad6e035427997b3bb10ee88a4cd014ae82aeb9eea77bb9
     # via -r requirements-dev.txt
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
